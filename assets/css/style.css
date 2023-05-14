@@ -6,6 +6,10 @@ header{
     align-items: center;    
 }
 
+body{
+    margin: 0;
+}
+
 header div{
     background-color: rgb(85, 129, 129);
     width: 25%;
@@ -27,6 +31,7 @@ header a{
 
 #subtitle{
     position:relative;
+
 }
 
 #subtitle div{
@@ -43,43 +48,75 @@ header a{
     width: 100%;
 }
 
-.navBox {
-    width: 25%;
-}
-
-#aboutMe{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-#aboutMe nav{
-    width: 25;
-}
 
 
 
 
-#contactMe{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#contactMe nav{
-    width: 25%; 
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
 
 }
 
-footer span{
-    display:flex;
+/* Left column */
+.column.side {
+    width: 20%;
+    text-align: end;
+    border-right: solid rgb(85, 129, 129);
+    padding: 10px;
+}
+  
+/* Right column */
+.column.middle {
+    width: 70%;
+    margin-left: 15px;
+
 }
 
-footer span ul li{
-    display:inline-block;
-    padding: 20px;
+/* about me side bar */
+#aboutMe-Side{
+    height: 140px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
+/* about me main bar */
+#aboutMe-Middle{
+    height: 140px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#aboutMe p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aboutMe h2{
+    padding-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+   height: 50px;     
+}
+
+
+
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
 
