@@ -18,10 +18,10 @@ header span ul li{
 
 header a{
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color:rgb(85, 129, 129) ;
-    
+    padding: 8px;
     
 }
 
@@ -38,8 +38,6 @@ header a{
     background-color: rgb(85, 129, 129);
 }
 
-
-
 #subtitle img{
     height: 400px;
     width: 100%;
@@ -50,6 +48,7 @@ header a{
 }
 
 #aboutMe{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,35 +56,8 @@ header a{
 }
 
 #aboutMe nav{
-    width: 25%; 
-    
+    width: 25;
 }
-
-
-
-
-
-
-
-
-
-
-#myWorks{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-#myWorks nav{
-    width: 25%;
-}
-
-
-#myWorks img{
-    width: 75%;
-}
-
 
 
 
@@ -110,54 +82,4 @@ footer span ul li{
     padding: 20px;
 }
 
-/* 
-body{
-    margin: 0;
-    padding: 0;
-}
 
-#aboutMe{
-    display:flex ;
-}
-
-#aboutMe nav{
-    width: 25%; 
-
-}
-
-#aboutMe span{
-    padding: 10px;
-}
-
-#myWorks{
-    display: flex;
-}
-
-#myWorks nav{
-    width: 25%;
-    padding: 10px;
-}
-
-#myWorks span{
-    
-    display:flex;
-}
-
-#contactMe{
-    display: flex;
-}
-
-#contactMe nav{
-    width: 25%;
-}
-
-#contactMe span{
-    
-    justify-content: space-around;
-    
-}
-
-#contactMe ul{
-    list-style-type: none;
-    display:inline-block
-} */
