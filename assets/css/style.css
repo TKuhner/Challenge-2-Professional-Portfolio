@@ -13,6 +13,7 @@ body{
 header div{
     background-color: rgb(85, 129, 129);
     width: 25%;
+    
 }
 
 
@@ -49,7 +50,10 @@ header a{
 }
 
 
-
+/* #worksContainer{
+    display: flex;
+    flex-wrap: wrap;
+} */
 
 
 .column {
@@ -191,6 +195,12 @@ div#contactMe-Middle.column.column.middle {
 
 
 
+
+/* 
+footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} */
+
 footer ul{
     list-style: none;
 }
@@ -201,10 +211,15 @@ footer li{
     
 }
 
+#contactMe-Middle{
+    align-items: right;
+}
+
 
 
 @media (max-width: 600px) {
+
     .column.side, .column.middle {
       width: 100%;
     }
-
+}
