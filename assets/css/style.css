@@ -1,0 +1,225 @@
+header{
+    background-color: rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+body{
+    margin: 0;
+}
+
+header div{
+    background-color: rgb(85, 129, 129);
+    width: 25%;
+    
+}
+
+
+header span ul li{
+    display:inline-block;
+}
+
+header a{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(85, 129, 129) ;
+    padding: 8px;
+    
+}
+
+#subtitle{
+    position:relative;
+
+}
+
+#subtitle div{
+    position:absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(85, 129, 129);
+}
+
+#subtitle img{
+    height: 400px;
+    width: 100%;
+}
+
+
+/* #worksContainer{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+
+}
+
+/* Left column */
+.column.side {
+    width: 20%;
+    text-align: end;
+    border-right: solid rgb(85, 129, 129);
+    padding: 10px;
+}
+  
+/* Right column */
+.column.middle {
+    width: 70%;
+    margin-left: 15px;
+}
+
+/* about me side bar */
+#aboutMe-Side{
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* about me main bar */
+#aboutMe-Middle{
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#aboutMe p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aboutMe h2{
+    padding-top: 5px;
+
+}
+
+div#myWorks-Side.column.side{
+    height:920px;
+}
+
+div#myWorks-Middle.column.middle{
+    height:1000px;
+}
+
+
+#myWorks-Side{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#myWorks-Middle{
+    height: 140px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.row img{
+    border: solid rgb(37, 150, 150);
+    border-width: 5px;   
+}
+
+#work1 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+div#work2.column.column.middle{
+    width: 35%;
+}
+
+#work2 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+div#work3.column.column.middle{
+    width: 35%;
+}
+#work3 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+div#work4.column.column.middle{
+    width: 35%;
+}
+#work4 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+div#work5.column.column.middle{
+    width: 35%;
+}
+#work5 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+#contactMe-Side{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+div#contactMe-Side.column.side {
+    height: 70px;
+}
+
+div#contactMe-Middle.column.column.middle {
+    height: 70px;
+}
+
+
+
+
+/* 
+footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+} */
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    display: inline-block;
+    padding:20px;
+    
+}
+
+#contactMe-Middle{
+    align-items: right;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .column.side, .column.middle {
+      width: 100%;
+    }
+}
